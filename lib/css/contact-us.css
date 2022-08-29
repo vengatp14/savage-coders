@@ -1,0 +1,21 @@
+.tw-col{
+    color: #1DA1F2;
+}
+.f-col{
+    color: #4267B2;
+}
+.y-col{
+    color: #FF0000;
+}
+.l-col{
+    color:#0A66C2;
+}
+.w-col{
+    color: #4FCE5D;
+}
+.p-col{
+    color: gray;
+}
+.tw-col,.f-col,.y-col,.l-col,.w-col,.p-col{
+    cursor: pointer;
+}
