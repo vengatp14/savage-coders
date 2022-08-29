@@ -19,3 +19,11 @@
 .tw-col,.f-col,.y-col,.l-col,.w-col,.p-col{
     cursor: pointer;
 }
+.contact-us{
+    background-image: url("../img/mt2.gif");
+    background: cover;
+}
+.bg-gray{
+    background: rgb(4,13,62);
+background: linear-gradient(90deg, rgba(4,13,62,1) 0%, rgba(4,13,62,0.7346288857339811) 42%, rgba(119,119,119,0.8914916308320203) 100%);
+}
