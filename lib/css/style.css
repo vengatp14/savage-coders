@@ -1,6 +1,7 @@
 @import url('about-us.css');
 @import url('my-team.css');
 @import url('contact-us.css');
+@import url('services.css');
 #canvas-basic {
 background-color: transparent;
 position: relative;
