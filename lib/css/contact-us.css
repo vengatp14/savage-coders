@@ -24,6 +24,6 @@
     background: cover;
 }
 .bg-gray{
-    background: rgb(4,13,62);
-background: linear-gradient(90deg, rgba(4,13,62,1) 0%, rgba(4,13,62,0.7346288857339811) 42%, rgba(119,119,119,0.8914916308320203) 100%);
+    background: rgba(55, 0, 143, 0.668);
+/* background: linear-gradient(90deg, rgba(4,13,62,1) 0%, rgba(4,13,62,0.7346288857339811) 42%, rgba(119,119,119,0.8914916308320203) 100%); */
 }
