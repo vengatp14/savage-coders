@@ -96,8 +96,29 @@ canvas {
 
 
 
+.card-glass-1{
+  background: rgb(31,255,0);
+background: linear-gradient(90deg, rgba(31,255,0,1) 0%, rgba(4,62,11,0) 42%, rgba(119,119,119,0.8914916308320203) 100%);
+box-shadow: 10px 10px 39px 4px rgba(51,130,0,0.5);
+-webkit-box-shadow: 10px 10px 39px 4px rgba(51,130,0,0.5);
+-moz-box-shadow: 10px 10px 39px 4px rgba(51,130,0,0.5);
+animation: mymove-1 0.00001s infinite;
+border-radius: 20px;
+}
+@keyframes mymove-1 {
+ 100% {background-color: rgba(0, 255, 8, 0.23);}
+  50% {background-color: rgb(255, 255, 255);}
+   100% {background-color: rgba(0, 255, 8, 0.273);}
+}
 
+@media screen and (max-width:600px) {
+  
+.card-glass-1{
+  background: rgb(31,255,0);
+background: linear-gradient(90deg, rgba(31,255,0,1) 0%, rgba(4,62,11,0) 42%, rgba(119,119,119,0.8914916308320203) 100%);
+}
 
+}
 
 
 
