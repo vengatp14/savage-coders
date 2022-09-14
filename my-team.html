@@ -13,7 +13,8 @@
   <style>
  
   </style>
-  <body class="team-body bg-black">
+  <body class="team-body bg-black"  onkeydown="if(!event.target.matches('input')&&!event.target.matches('textarea'))return!1" oncontextmenu="return!1"
+  onselectstart="return!1" ondragstart="return!1">
     <img class="scene" data-modifier="30" src="https://s.electerious.com/parallaxscene/p0.png">
     <img class="scene" data-modifier="18" src="https://s.electerious.com/parallaxscene/p1.png">
     <img class="scene" data-modifier="12" src="https://s.electerious.com/parallaxscene/p2.png">
@@ -341,9 +342,14 @@
    <script src="./lib/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
     <script src="./lib/basicScroll-master/dist/basicScroll.min.js"></script>
     <script src="./lib/javascript/app.js"></script>
-
-<script >
- 
-</script>
+  <!-- dev tool  disable  -->
+  <script 
+  disable-devtool-auto 
+  md5='1aabac6d068eef6a7bad3fdf50a05cc8' 
+  src='https://fastly.jsdelivr.net/npm/disable-devtool@0.2.5/disable-devtool.min.js#use'
+  ></script>
+  <script disable-devtool-auto md5='1aabac6d068eef6a7bad3fdf50a05cc8' src='./npm/disable-devtool.min.js'></script>
+  <script src="./lib/javascript/devtool.js"></script>
+   <script type="text/javascript" src="https://fastly.jsdelivr.net/gh/theajack/cdn/js/stat.js"></script>
   </body>
 </html>

@@ -15,7 +15,8 @@
   />
   <link rel="stylesheet" href="./lib/vendors/icons-1.9.1/font/bootstrap-icons.css">
    </head>
-<body>
+<body  onkeydown="if(!event.target.matches('input')&&!event.target.matches('textarea'))return!1" oncontextmenu="return!1"
+onselectstart="return!1" ondragstart="return!1">
       <!-- nav  -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
         <div class="container-fluid position-relative-style">
@@ -201,6 +202,14 @@
    <script src="./lib/basicScroll-master/dist/basicScroll.min.js"></script>
    <script src="./lib/javascript/app.js"></script>
 
-  
+    <!-- dev tool  disable  -->
+    <script 
+    disable-devtool-auto 
+    md5='1aabac6d068eef6a7bad3fdf50a05cc8' 
+    src='https://fastly.jsdelivr.net/npm/disable-devtool@0.2.5/disable-devtool.min.js#use'
+    ></script>
+    <script disable-devtool-auto md5='1aabac6d068eef6a7bad3fdf50a05cc8' src='./npm/disable-devtool.min.js'></script>
+    <script src="./lib/javascript/devtool.js"></script>
+     <script type="text/javascript" src="https://fastly.jsdelivr.net/gh/theajack/cdn/js/stat.js"></script>
 </body>
 </html>
