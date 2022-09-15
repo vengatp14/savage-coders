@@ -120,7 +120,17 @@ background: linear-gradient(90deg, rgba(31,255,0,1) 0%, rgba(4,62,11,0) 42%, rgb
 
 }
 
+.shadow-light{
+  box-shadow: 0px 12px 93px 0px rgba(0,255,41,0.42);
+-webkit-box-shadow: 0px 12px 93px 0px rgba(0,255,41,0.42);
+-moz-box-shadow: 0px 12px 93px 0px rgba(0,255,41,0.42);
+background-color: rgba(4, 120, 14, 0.715);
+}.col-insert{
 
+  box-shadow: 0px 0px 27px 4px rgba(0,0,0,0.38) inset;
+-webkit-box-shadow: 0px 0px 27px 4px rgba(0,0,0,0.38) inset;
+-moz-box-shadow: 0px 0px 27px 4px rgba(0,0,0,0.38) inset;
+}
 
 
 .scene {
@@ -141,3 +151,27 @@ background: linear-gradient(90deg, rgba(31,255,0,1) 0%, rgba(4,62,11,0) 42%, rgb
     margin-top: 80vh;
   }
 }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../img/draw/nav-index.png") !important ;
+}
+.navbar-toggler-icon {
+  display: inline-block !important;
+  width: 2em !important;
+  height: 2em !important;
+  vertical-align: middle !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: 100% !important;
+}
+.navbar-toggler:focus {
+  text-decoration: none !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+.navbar-light .navbar-toggler {
+  color: transparent !important;
+  border-color: none !important;
+}
+
+

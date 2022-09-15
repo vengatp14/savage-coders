@@ -251,6 +251,19 @@ transition: all .4s;
      height: 50vh;
     }
 
+    
+.shadow-light-1{
+    box-shadow: 0px 0px 27px 4px rgba(56,47,161,1);
+    -webkit-box-shadow: 0px 0px 27px 4px rgba(56,47,161,1);
+    -moz-box-shadow: 0px 0px 27px 4px rgba(56,47,161,1);
+    backdrop-filter: blur(10px);
+  }.col-insert-1{
+    box-shadow: 0px 0px 27px 4px rgba(56,47,161,1) inset;
+    -webkit-box-shadow: 0px 0px 27px 4px rgba(56,47,161,1) inset;
+    -moz-box-shadow: 0px 0px 27px 4px rgba(56,47,161,1) inset;}
+  
+
+
 
 
 
