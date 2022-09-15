@@ -98,7 +98,7 @@ canvas {
 
 .card-glass-1{
   background: rgb(31,255,0);
-background: linear-gradient(90deg, rgba(31,255,0,1) 0%, rgba(4,62,11,0) 42%, rgba(119,119,119,0.8914916308320203) 100%);
+background: linear-gradient(160deg, rgba(30, 255, 0, 0.237) 0%, rgba(4,62,11,0) 42%, rgba(119, 119, 119, 0.505) 100%);
 box-shadow: 10px 10px 39px 4px rgba(51,130,0,0.5);
 -webkit-box-shadow: 10px 10px 39px 4px rgba(51,130,0,0.5);
 -moz-box-shadow: 10px 10px 39px 4px rgba(51,130,0,0.5);
@@ -107,16 +107,26 @@ border-radius: 20px;
 }
 @keyframes mymove-1 {
  100% {background-color: rgba(0, 255, 8, 0.23);}
-  50% {background-color: rgb(255, 255, 255);}
+  50% {background-color: rgba(255, 255, 255, 0.196);}
    100% {background-color: rgba(0, 255, 8, 0.273);}
+}
+.shadow-light{
+  box-shadow: 0px 12px 93px 0px rgba(0,255,41,0.42);
+-webkit-box-shadow: 0px 12px 93px 0px rgba(0,255,41,0.42);
+-moz-box-shadow: 0px 12px 93px 0px rgba(0,255,41,0.42);
+background-color: rgba(4, 120, 14, 0.715);
+}.col-insert{
+
+  box-shadow: 0px 0px 27px 4px rgba(0,0,0,0.38) inset;
+-webkit-box-shadow: 0px 0px 27px 4px rgba(0,0,0,0.38) inset;
+-moz-box-shadow: 0px 0px 27px 4px rgba(0,0,0,0.38) inset;
 }
 
 @media screen and (max-width:600px) {
   
 .card-glass-1{
   background: rgb(31,255,0);
-background: linear-gradient(90deg, rgba(31,255,0,1) 0%, rgba(4,62,11,0) 42%, rgba(119,119,119,0.8914916308320203) 100%);
-}
+  background: linear-gradient(160deg, rgba(30, 255, 0, 0.237) 0%, rgba(4,62,11,0) 42%, rgba(119,119,119,0.8914916308320203) 100%);
 
 }
 
