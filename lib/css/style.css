@@ -155,6 +155,7 @@ background-color: rgba(4, 120, 14, 0.715);
   position: relative;
   margin-top: 60vh;
 }
+}
 @media screen and (max-width:1200px) and (min-width:992px) {
   .container-style {
     position: relative;
